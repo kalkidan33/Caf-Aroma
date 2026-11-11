@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get in touch with Café Aroma. Send us a message, find our locations, or book event inquiries.">
+    <meta name="author" content="Café Aroma Team">
+    <title>Café Aroma - Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Contact Café Aroma</h1>
+        
+        <!-- Navigation Menu -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Direct Contact Info -->
+        <section id="direct-contact">
+            <h2>Reach Us Directly</h2>
+            <p>Email: <a href="mailto:hello@cafearoma.com">hello@cafearoma.com</a></p>
+            <p>Phone: <a href="tel:+919876543210">+91 98765 43210</a></p>
+            <p>Follow our coffee journey on <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>!</p>
+        </section>
+
+        <!-- Contact Form Section -->
+        <section id="contact-form-section">
+            <h2>Send Us a Message</h2>
+            <form action="#" method="post">
+                <p>
+                    <label for="full-name">Full Name:</label><br>
+                    <input type="text" id="full-name" name="full_name" placeholder="John Doe" required>
+                </p>
+
+                <p>
+                    <label for="email-addr">Email Address:</label><br>
+                    <input type="email" id="email-addr" name="email_address" placeholder="john@example.com" required>
+                </p>
+
+                <p>
+                    <label for="user-pass">Account Password (Optional):</label><br>
+                    <input type="password" id="user-pass" name="user_password" placeholder="Enter password">
+                </p>
+
+                <fieldset>
+                    <legend>Visit Type</legend>
+                    <input type="radio" id="dine-in" name="visit_type" value="dine-in" checked>
+                    <label for="dine-in">Dine-in</label><br>
+
+                    <input type="radio" id="takeaway" name="visit_type" value="takeaway">
+                    <label for="takeaway">Takeaway</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Interested in (Select all that apply)</legend>
+                    <input type="checkbox" id="coffee" name="interests" value="coffee">
+                    <label for="coffee">Coffee</label><br>
+
+                    <input type="checkbox" id="pastries" name="interests" value="pastries">
+                    <label for="pastries">Pastries</label><br>
+
+                    <input type="checkbox" id="events" name="interests" value="events">
+                    <label for="events">Events</label>
+                </fieldset>
+
+                <p>
+                    <label for="branch-select">Preferred Branch:</label><br>
+                    <select id="branch-select" name="preferred_branch">
+                        <option value="downtown">Downtown Main Street</option>
+                        <option value="west-side">West Side Mall</option>
+                        <option value="east-avenue">East Avenue</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="message-box">Your Message:</label><br>
+                    <textarea id="message-box" name="user_message" rows="5" cols="40" placeholder="Type your inquiry or feedback here..."></textarea>
+                </p>
+
+                <p>
+                    <button type="submit">Submit Feedback</button>
+                </p>
+            </form>
+        </section>
+
+        <!-- Media & Location Section -->
+        <section id="map-media">
+            <h2>Find Our Main Branch</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.83543450937!2d144.9537353153166!3d-37.81627977975171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d4c2b349649%3A0xb6899234e561db11!2sEnvato!5e0!3m2!1sen!2sin!4v1614055444321!5m2!1sen!2sin" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+
+        <p><a href="#">Back to top</a></p>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 2026 Café Aroma. All rights reserved.</p>
+    </footer>
+    <script src="script.js" defer></script>
+
+</body>
+</html>

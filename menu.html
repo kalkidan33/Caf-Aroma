@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore the delicious menu at Café Aroma, featuring artisanal hot and cold beverages, baked goods, and savory snacks.">
+    <meta name="author" content="Café Aroma Team">
+    <title>Café Aroma - Our Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Our Delicious Menu</h1>
+        
+        <!-- Navigation Menu -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        
+        <!-- Background Music -->
+        <section id="audio-player">
+            <h2>Ambiance</h2>
+            <p>Enjoy some relaxing background jazz while exploring our menu:</p>
+            <audio controls preload="none">
+                <source src="audio/background-jazz.mp3" type="audio/mpeg">
+                <source src="audio/background-jazz.ogg" type="audio/ogg">
+                Your browser does not support the audio element.
+            </audio>
+        </section>
+
+        <!-- Menu Table Section -->
+        <section id="table-menu">
+            <h2>Price List</h2>
+            <table border="1">
+                <caption>Café Aroma Food and Beverage Menu</caption>
+                <thead>
+                    <tr>
+                        <th colspan="4">Our Menu Options</th>
+                    </tr>
+                    <tr>
+                        <th>Category</th>
+                        <th>Item</th>
+                        <th>Description</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="2">Coffee Specialties</td>
+                        <td>Classic Espresso</td>
+                        <td>Rich, dark shot of espresso (30ml)</td>
+                        <td>₹120</td>
+                    </tr>
+                    <tr>
+                        <td>Caffè Latte</td>
+                        <td>Espresso mixed with steamed milk and light foam (250ml<sub>vol</sub>)</td>
+                        <td>₹180</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Pastries & Snacks</td>
+                        <td>Butter Croissant</td>
+                        <td>Flaky, buttery multi-layered fresh pastry</td>
+                        <td>₹140</td>
+                    </tr>
+                    <tr>
+                        <td>Blueberry Muffin</td>
+                        <td>Soft muffin packed with fresh wild blueberries</td>
+                        <td>₹160</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- List Section -->
+        <section id="menu-categories">
+            <h2>Item Categories</h2>
+            <ul>
+                <li>
+                    Beverages
+                    <ul>
+                        <li>
+                            Hot Drinks
+                            <ul>
+                                <li>Espresso</li>
+                                <li>Americano</li>
+                                <li>Cappuccino</li>
+                            </ul>
+                        </li>
+                        <li>
+                            Cold Drinks
+                            <ul>
+                                <li>Iced Latte</li>
+                                <li>Cold Brew</li>
+                                <li>Fruit Smoothies</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    Bakery & Food
+                    <ul>
+                        <li>Croissants</li>
+                        <li>Muffins</li>
+                        <li>Artisanal Sandwiches</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Ordering Guide Section -->
+        <section id="how-to-order">
+            <h2>How to Order</h2>
+            <ol>
+                <li>Choose your preferred items from the menu above.</li>
+                <li>Proceed to the ordering counter or submit an online request.</li>
+                <li>Select your payment method (Cash, Card, or Digital Wallet).</li>
+                <li>Collect your order token and relax while we prepare your meal!</li>
+            </ol>
+        </section>
+
+        <p><a href="#">Back to top</a></p>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 2026 Café Aroma. All rights reserved.</p>
+    </footer>
+    <script src="script.js" defer></script>
+
+</body>
+</html>
